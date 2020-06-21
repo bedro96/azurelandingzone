@@ -28,8 +28,9 @@ docker pull docker pull aztfmod/rover:2005.1510
 git clone https://github.com/Azure/caf-terraform-landingzones.git
 
 - docker image run with volume mount
-docker run -v /home/centadmin/caf-terraform-landingzones/landingzones:/tf/caf/landingzones -it aztfmod/rover:2005.1510
-
+```
+docker run -v /home/centadmin/caf-terraform-landingzones/landingzones:/tf/caf/landingzones -it --name rover aztfmod/rover:2005.1510
+```
 
 
 
