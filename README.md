@@ -33,6 +33,13 @@ docker run -v /home/centadmin/caf-terraform-landingzones/landingzones:/tf/caf/la
 ```
 
 -- run this command
+login with rover
+```
 rover login microsoft.com 05be085b-86ea-4336-addc-38fd56051a9e
-
+```
+run lauchpad
+```
+launchpad /tf/launchpads/launchpad_opensource_light plan -var location=koreacentral        
+```
+```
 
