@@ -32,5 +32,7 @@ git clone https://github.com/Azure/caf-terraform-landingzones.git
 docker run -v /home/centadmin/caf-terraform-landingzones/landingzones:/tf/caf/landingzones -it --name rover aztfmod/rover:2005.1510
 ```
 
+-- run this command
+rover login microsoft.com 05be085b-86ea-4336-addc-38fd56051a9e
 
 
