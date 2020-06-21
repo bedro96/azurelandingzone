@@ -110,3 +110,7 @@ List of the landingzones loaded in the rover:
 @calling clean_up_variables
 cleanup variables
 ```
+- Installing the first CAF foundation 
+```
+rover /tf/caf/landingzones/landingzone_caf_foundations apply
+```
