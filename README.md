@@ -16,15 +16,16 @@ $ sudo usermod -aG docker $USER
 ```
 logoff and login again.
     
-- rover 최신 버젼  
+- rover 최신 버젼 확인하기
 https://hub.docker.com/r/aztfmod/rover/tags
 ```
 docker pull docker pull aztfmod/rover:2005.1510
 ```
 
 - landing zone
+```
 git clone https://github.com/Azure/caf-terraform-landingzones.git
-
+```
 - docker image run with volume mount
 ```
 docker run -v /home/centadmin/caf-terraform-landingzones/landingzones:/tf/caf/landingzones -it --name rover aztfmod/rover:2005.1510
