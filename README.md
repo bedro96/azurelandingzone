@@ -1,24 +1,22 @@
 # azurelandingzone
 
+CentOS일 필요는 없지만, 호환성을 최대한 보장을 하기 위해서, CentOS에 설치하는 것으로 하겠습니다. 
 
 - CentOS VM
 신규 CentOS 7.5 VM 설치
 https://github.com/bedro96/tf-centos
  
 - CentOS VM에 Docker 설치하기
+```bash
 $ sudo yum install -y yum-utils
-
-$ sudo yum-config-manager \
-    --add-repo \
-    https://download.docker.com/linux/centos/docker-ce.repo
-    
+$ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 $ sudo yum install docker-ce docker-ce-cli containerd.io
 $ sudo systemctl start docker
 $ sudo usermod -aG docker $USER
-
+```
 logoff and login again.
     
-- rover 
+- rover 최신 버젼  
 https://hub.docker.com/r/aztfmod/rover/tags
 ```
 docker pull docker pull aztfmod/rover:2005.1510
