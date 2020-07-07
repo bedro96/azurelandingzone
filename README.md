@@ -3,6 +3,7 @@
 CentOS일 필요는 없지만, 호환성을 최대한 보장을 하기 위해서, CentOS에 설치하는 것으로 하겠습니다. 
 
 - CentOS VM
+
 신규 CentOS 7.5 VM 설치
 https://github.com/bedro96/tf-centos
  
